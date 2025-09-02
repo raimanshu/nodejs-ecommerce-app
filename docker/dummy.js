@@ -1,0 +1,1 @@
+// Docker configuration for containerizing the application. docker.md - Detailed instructions and documentation for using Docker with this project.

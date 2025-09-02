@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-ecommerce-app",
+  "version": "1.0.0",
+  "description": "NodeJs E-Commerce Website",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js",
+    "debug": "nodemon --inspect-brk src/index.js"
+  },
+  "author": "Himanshu Rai",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^8.0.1",
+    "helmet": "^8.1.0",
+    "http-status": "^1.8.1",
+    "joi": "^18.0.1",
+    "mongoose": "^8.17.2",
+    "nodemon": "^3.1.10",
+    "passport": "^0.7.0",
+    "stack-trace": "^0.0.10",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0",
+    "xss": "^1.0.15",
+    "xss-clean": "^0.1.4"
+  }
+}

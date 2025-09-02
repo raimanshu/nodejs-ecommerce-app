@@ -1,0 +1,1 @@
+#  Similar to .gitignore but specifically for npm packaging. It controls what's excluded when publishing your project as an npm module.
